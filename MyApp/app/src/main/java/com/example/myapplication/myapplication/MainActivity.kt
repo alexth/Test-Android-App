@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity(), DataAdapter.OnItemClickListener {
     }
 
     override fun onItemClick(string: String, view: View) {
-        println()
+        println("on item click")
     }
 
     // Utils
